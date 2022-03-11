@@ -6,16 +6,11 @@
 */
 int main(void)
 {
-char s_alp[26] = "abcdefghijklmnopqrstuvwxyz";
-char l_alp[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 int i, j;
-for (i = 0; i < 26; i++);
+for (i = 0; i < 52; i++);
 {
-putchar(s_alp[i]);
-}
-for (j = 0; j < 26; j++)
-{
-putchar(l_alp[j]);
+putchar(alp[i]);
 }
 putchar('\n');
 return (0);

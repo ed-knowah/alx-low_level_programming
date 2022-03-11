@@ -15,7 +15,7 @@ putchar(s_alp[i]);
 }
 for (j = 0; j < 26; j++)
 {
-   putchar(l_alp[j]);
+putchar(l_alp[j]);
 }
 putchar('\n');
 return (0);
